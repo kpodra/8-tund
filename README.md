@@ -9,12 +9,12 @@ Looge oma tiimile veebileht, kus on vähemalt kolm lehte:
 ## Avaleht:
 1. Ülesande kirjeldusega
 1. Tehtud ülesannete list ja mis osutus ülesande tegemisel raskeks.
-1. Link teie githubi repositooriumile.
+1. Link teie githubi repositooriumile ning tiimiliikmete nimed.
 1. Lihtne kalkulaator, kus saab sisestada soo ja vanuse (slideri abil) ning väljundiks on see, mitu aastat pensionini on, kui inimene juba on pensionil, siis tuleb ka seda näidata. Kalkulaatoris kasutage lihtsustatud andmeid, et naised jäävad pensionile 63 ja mehed 65 aastaselt. 
 
 
 ## Tiimileht:
-1. Tiimiliikmete slaider, mida sarnast (ei pea enda andmeid kasutama, võivad olla fiktiivsed): ![image](https://user-images.githubusercontent.com/46881542/114979479-9ad58e00-9e93-11eb-919e-23ff19cf9265.png)
+1. Tiimiliikmete slaider, mida sarnast (ei pea enda andmeid kasutama, aga kuskil lehel peavad tiimiliikmete nimed kajastuma): ![image](https://user-images.githubusercontent.com/46881542/114979479-9ad58e00-9e93-11eb-919e-23ff19cf9265.png)
 1. Embeded youtube'i video teile kõigile meeldivad muusikavideoga. 
 
 
