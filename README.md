@@ -3,7 +3,7 @@ Iseseisev töö
 
 
 # Ülesanne: 
-Leidke endale tiim 2-3 liiget, võib ka üksi teha, kui kedagi ei leia. Tehke sellest repositooriumist fork ja laadige töö githubi üles. Võite leida erinevaid alternatiive, et kuidas koodi koos kirjutada, aga üks võimalus on installida VS Code'ile laiendus Live Share - https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+Leidke endale tiim 2-4 liiget, võib ka üksi teha, kui kedagi ei leia. Tehke sellest repositooriumist fork ja laadige töö githubi üles. Võite leida erinevaid alternatiive, et kuidas koodi koos kirjutada, aga üks võimalus on installida VS Code'ile laiendus Live Share - https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
 
 Looge oma tiimile veebileht, kus on vähemalt kolm lehte: 
 ## Avaleht:
