@@ -1,18 +1,16 @@
 html{
     background-color: rgb(49, 114, 114);
     font-size: 16px;
-    text-align: center;
 }
 
 body{
     margin: 0;
-    padding: 3px;
-    text-align: center;
+    text-align: left;
 }
 
-#container{
+.wrapper{
     background-color: rgb(134, 199, 204);
-    display: flex;
+    padding: 10px;
     flex-direction: column;
     align-items: center;
     height: 10vh;
@@ -21,14 +19,14 @@ body{
 }
 
 
-#kontaktandmed {
-    text-align: center;
+.content {
+    text-align: left;
     width: 35vh;
 }
 
-.kaart{
+.map{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 15px;
     width: 60vh;
     margin: auto;
