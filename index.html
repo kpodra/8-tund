@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" >
     <link rel="stylesheet" href="header.css">
+    <script src="kalkulaator.js"></script>
     <title style="color:blueviolet">Avaleht</title>
 </head>
 <body>
@@ -41,13 +42,15 @@
                 jäänud, arvestades inimese sugu ja hetkelist vanust.
             </p>
             <div id="input-wrapper">
-                <input type="radio" name="gender" value="female" id="input-wrapper-1">Naine
-                <input type="radio" name="gender" value="male" id="input-wrapper-1">Mees
-                <br>
-                <input type="range" min="1" max="100" value="1" class="slider" id="ageRange">
-                <div id="age"></div>
-                <input type="button" value="Arvuta">
-                <div id="result"></div>
+                <form>
+                    <input type="radio" name="gender" value="female" id="female">Naine
+                    <input type="radio" name="gender" value="male" id="male">Mees
+                    <br>
+                    <input id="age_range" type="range" min="0" max="125" oninput="age_amount.value=age_range.value">
+                    <input id="age_amount" type="text" value="0" min="0" max="125" oninput="age_range.value=age_amount.value" style="width: 25px;"><br>
+                    <input type="button" value="Arvuta" onclick="calculate()">
+                    <div id="result"></div>
+                </form> 
             </div>            
         </div>
     </div>

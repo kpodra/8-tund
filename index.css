@@ -18,17 +18,17 @@ body{
     font-size: 15px;
 }
 
-.top-container {
-    background: var(--background);
-    font-family: var(--font-family);
+
+
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 20px;
+
 }
 
-
-.footer-link{
-    font-family: var(--font-family);
-    font-size: 25px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-
+#wrapper {
+    padding-left: 20px;
 }
 
