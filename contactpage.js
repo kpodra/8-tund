@@ -1,4 +1,4 @@
-$('.submit').click(saatmine);
+$('#submit').click(saatmine);
 
 function saatmine(){
     let name = $('#name').val();
