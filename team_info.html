@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-	<script src="teaminfo.js" defer></script>
+	<link rel="stylesheet" href="team_info.css">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="header.css">
+	<script src="team_info.js" defer></script>
 	<title style="color:blueviolet">Tiim</title>
 </head> 
 <body class="wrapper" >
@@ -18,22 +18,42 @@
 			<a href="contact_page.html">Kontaktileht</a>
 		</div>
 	</header>
-    <div id="wrapper" style="margin: 0% 2.5%;">
+
+	<div id="carousel_container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 2</div>
+			<img src="pildid/RV_dummy_picture.png" alt="image1">
+			<div class="text">Ragnar Valdre</div>
+			<div class="subtitle">Regular Monke Coder</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 2</div>
+			<img src="pildid/girl.jpg" alt="image2">
+			<div class="text">Kati Põdra</div>
+			<div class="subtitle">Error 404 Brain Not Found</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+	</div>
+
+	<br>
+
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+	</div>
+
+    <div id="wrapper">
         <div id="content">								
 			<div id="0" class="teamList">
-				<div id="teamPerson">
-					<h3>Kati Põdra</h3>
-					<p>äkki on lemmikvideo</p>
+				<div id="teamPerson">	
+					<p>Lemmikvideo siin: </p>
 				</div>
 				<div class="video">
 					<figure>
-						<div id="prevButton">
-							<button id="prevDesc"></button>
-						</div>
-						<iframe width="640" height="390" src="https://www.youtube.com/watch?v=Bompxsij7dY" title="YouTube video" frameborder="0" allowfullscreen></iframe>
-						<div id="nextButton">
-							<button id="nextDesk"></button>
-						</div>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/oXSLYEqFnO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</figure>
 						<figcaption>Have you ever wondered if you are just a shy introvert, or maybe it is something else?</figcaption>
 				</div>
