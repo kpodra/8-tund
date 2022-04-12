@@ -1,10 +1,11 @@
 
 html{
-    background-color: rgb(49, 114, 114);
+    background-image: url('bg.jpg');
     font-size: 16px;
 }
 
 body{
+    background-image: url('bg.jpg');
     margin: 0;   
 }
 
@@ -15,7 +16,9 @@ body{
     align-items: center;
     height: 10vh;
     justify-content: space-around;
+    font-style: italic;
     font-size: 15px;
+    
 }
 
 
@@ -23,12 +26,13 @@ body{
 
 footer{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20px;
 
 }
 
 #wrapper {
     padding-left: 20px;
+    font-style: italic;
 }
 
