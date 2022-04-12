@@ -14,21 +14,25 @@ function saatmine(){
         $('#nameError').html("Palun sisesta oma nimi!");
     } else {
         nameError = true;
+        $('#nameError').html("");
     }
     if(mobile.length == 0){
         $('#mobileError').html("Palun sisesta oma telefoninumber!");
     } else {
         mobileError = true;
+        $('#mobileError').html("");
     }
     if(email.length == 0){
         $('#emailError').html("Palun sisesta oma email!");
     } else {
         emailError = true;
+        $('#emailError').html("");
     }
     if(addInfo.length == 0){
         $('#addInfoError').html("Palun sisesta lisainfo!");
     } else {
         addInfoError = true;
+        $('#addInfoError').html("");
     }
 
     if(nameError == true && mobileError == true && emailError == true && addInfoError == true){
