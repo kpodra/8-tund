@@ -20,9 +20,10 @@ body{
 }
 
 
-.content {
+#content {
     text-align: left;
     width: 35vh;
+    color: aquamarine;
 }
 
 .map{
